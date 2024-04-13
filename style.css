@@ -1,0 +1,83 @@
+.nav{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.content{
+    background-color: rgb(64, 162, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(64, 162, 241);
+
+
+}
+
+.pool{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-left: 2px solid white;
+    height: 500px;
+    width: 50%;
+}
+
+.city{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 50%;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px 54px;
+    align-items: center;
+}
+
+#manchester-score,
+#manchester-fouls,
+#liverpool-score,
+#liverpool-fouls{
+    margin-left: 90%;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.buttonn{
+    padding: 10px 54px;
+    margin: 20px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 54px;
+    margin: 10px;
+}
+
+.text{
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset{
+    text-decoration: none;
+}
